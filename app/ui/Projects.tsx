@@ -24,6 +24,22 @@ const projectsContent = {
     subtitle: 'Karya & Pengembangan',
     categories: [
       {
+        type: 'Bot Development',
+        icon: Bot,
+        color: 'purple',
+        description: 'Bot otomatis dan asisten virtual',
+        projects: [
+          {
+            name: 'Cakstore AI Bot',
+            description: 'Bot WhatsApp otomatis dengan AI untuk layanan customer service, informasi produk, dan fitur chat interaktif yang memudahkan komunikasi dengan pelanggan',
+            tech: ['JavaScript', 'Node.js', 'WhatsApp API', 'Baileys'],
+            link: 'https://wa.me/6281455124049',
+            github: 'private',
+            image: '/assets/project/image1.jpg'
+          }
+        ]
+      },
+      {
         type: 'Web Development',
         icon: Globe,
         color: 'blue',
@@ -36,6 +52,38 @@ const projectsContent = {
             link: 'https://dawu.co.id',
             github: 'private',
             image: '/assets/project/image.png'
+          },
+          {
+            name: 'Mandiri Teknik Landing Page',
+            description: 'Landing page untuk CV Mandiri Teknik, dibangun ulang dengan React setelah versi PHP asli tidak diperpanjang hostingnya',
+            tech: ['React', 'Tailwind CSS', 'Vercel'],
+            link: 'https://cv-mandiri.vercel.app/',
+            github: 'private',
+            image: '/assets/project/2.jpg'
+          },
+          {
+            name: 'Portfolio Versi 1',
+            description: 'Website portfolio personal pertama dengan desain minimalis dan modern, menampilkan project dan skill development',
+            tech: ['React', 'Tailwind CSS', 'JavaScript'],
+            link: 'https://kydev-portfolio.vercel.app/',
+            github: 'private',
+            image: '/assets/project/3.jpg'
+          },
+          {
+            name: 'Pricelist',
+            description: 'Aplikasi web untuk menampilkan daftar harga produk atau layanan dengan tampilan yang clean dan mudah diakses',
+            tech: ['React', 'Tailwind CSS', 'JavaScript'],
+            link: 'https://pricelist-blond.vercel.app/',
+            github: 'private',
+            image: '/assets/project/4.jpg'
+          },
+          {
+            name: 'Webstore',
+            description: 'Platform toko online dengan fitur katalog produk, keranjang belanja, dan sistem pemesanan yang user-friendly',
+            tech: ['React', 'Tailwind CSS', 'JavaScript'],
+            link: 'https://premium-flx.vercel.app/',
+            github: 'private',
+            image: '/assets/project/5.jpg'
           }
         ]
       }
@@ -45,6 +93,22 @@ const projectsContent = {
     title: 'Projects',
     subtitle: 'Works & Development',
     categories: [
+      {
+        type: 'Bot Development',
+        icon: Bot,
+        color: 'purple',
+        description: 'Automated bots and virtual assistants',
+        projects: [
+          {
+            name: 'Cakstore AI Bot',
+            description: 'Automated WhatsApp bot with AI for customer service, product information, and interactive chat features that facilitate customer communication',
+            tech: ['JavaScript', 'Node.js', 'WhatsApp API', 'Baileys'],
+            link: 'https://wa.me/6281455124049',
+            github: 'private',
+            image: '/assets/project/image1.jpg'
+          }
+        ]
+      },
       {
         type: 'Web Development',
         icon: Globe,
@@ -58,6 +122,38 @@ const projectsContent = {
             link: 'https://dawu.co.id',
             github: 'private',
             image: '/assets/project/image.png'
+          },
+          {
+            name: 'Mandiri Teknik Landing Page',
+            description: 'Landing page for CV Mandiri Teknik, rebuilt with React after the original PHP version hosting was not renewed',
+            tech: ['React', 'Tailwind CSS', 'Vercel'],
+            link: 'https://cv-mandiri.vercel.app/',
+            github: 'private',
+            image: '/assets/project/2.jpg'
+          },
+          {
+            name: 'Portfolio Version 1',
+            description: 'First personal portfolio website with minimalist and modern design, showcasing development projects and skills',
+            tech: ['React', 'Tailwind CSS', 'JavaScript'],
+            link: 'https://kydev-portfolio.vercel.app/',
+            github: 'private',
+            image: '/assets/project/3.jpg'
+          },
+          {
+            name: 'Pricelist',
+            description: 'Web application for displaying product or service price lists with a clean and easily accessible interface',
+            tech: ['React', 'Tailwind CSS', 'JavaScript'],
+            link: 'https://pricelist-blond.vercel.app/',
+            github: 'private',
+            image: '/assets/project/4.jpg'
+          },
+          {
+            name: 'Webstore',
+            description: 'Online store platform with product catalog, shopping cart, and user-friendly ordering system',
+            tech: ['React', 'Tailwind CSS', 'JavaScript'],
+            link: 'https://premium-flx.vercel.app/',
+            github: 'private',
+            image: '/assets/project/5.jpg'
           }
         ]
       }
@@ -67,6 +163,22 @@ const projectsContent = {
     title: 'プロジェクト',
     subtitle: '作品と開発',
     categories: [
+      {
+        type: 'ボット開発',
+        icon: Bot,
+        color: 'purple',
+        description: '自動ボットと仮想アシスタント',
+        projects: [
+          {
+            name: 'Cakstore AI Bot',
+            description: 'カスタマーサービス、製品情報、インタラクティブチャット機能を備えたAI搭載WhatsApp自動ボット',
+            tech: ['JavaScript', 'Node.js', 'WhatsApp API', 'Baileys'],
+            link: 'https://wa.me/6281455124049',
+            github: 'private',
+            image: '/assets/project/image1.jpg'
+          }
+        ]
+      },
       {
         type: 'Web開発',
         icon: Globe,
@@ -80,6 +192,38 @@ const projectsContent = {
             link: 'https://dawu.co.id',
             github: 'private',
             image: '/assets/project/image.png'
+          },
+          {
+            name: 'Mandiri Teknik Landing Page',
+            description: 'CV Mandiri Teknikのランディングページ、元のPHPバージョンのホスティングが更新されなかったためReactで再構築',
+            tech: ['React', 'Tailwind CSS', 'Vercel'],
+            link: 'https://cv-mandiri.vercel.app/',
+            github: 'private',
+            image: '/assets/project/2.jpg'
+          },
+          {
+            name: 'Portfolio Version 1',
+            description: '初めての個人ポートフォリオサイト、ミニマリストでモダンなデザインで開発プロジェクトとスキルを紹介',
+            tech: ['React', 'Tailwind CSS', 'JavaScript'],
+            link: 'https://kydev-portfolio.vercel.app/',
+            github: 'private',
+            image: '/assets/project/3.jpg'
+          },
+          {
+            name: 'Pricelist',
+            description: '製品やサービスの価格表を表示するWebアプリケーション、クリーンでアクセスしやすいインターフェース',
+            tech: ['React', 'Tailwind CSS', 'JavaScript'],
+            link: 'https://pricelist-blond.vercel.app/',
+            github: 'private',
+            image: '/assets/project/4.jpg'
+          },
+          {
+            name: 'Webstore',
+            description: 'オンラインストアプラットフォーム、商品カタログ、ショッピングカート、ユーザーフレンドリーな注文システム',
+            tech: ['React', 'Tailwind CSS', 'JavaScript'],
+            link: 'https://premium-flx.vercel.app/',
+            github: 'private',
+            image: '/assets/project/5.jpg'
           }
         ]
       }
