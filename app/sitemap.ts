@@ -1,8 +1,8 @@
 import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://yourwebsite.com'
-  const currentDate = new Date()
+  const baseUrl = 'https://www.kydev.my.id'
+  const currentDate = new Date('2026-01-12')
 
   return [
     // Homepage / Hero Section
@@ -22,7 +22,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     
     // About Section
     {
-      url: `${baseUrl}/#about`,
+      url: `${baseUrl}#about`,
       lastModified: currentDate,
       changeFrequency: 'monthly',
       priority: 0.8,
@@ -30,7 +30,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     
     // Experience Section
     {
-      url: `${baseUrl}/#experience`,
+      url: `${baseUrl}#experience`,
       lastModified: currentDate,
       changeFrequency: 'monthly',
       priority: 0.7,
@@ -38,7 +38,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     
     // Skills Section
     {
-      url: `${baseUrl}/#skills`,
+      url: `${baseUrl}#skills`,
       lastModified: currentDate,
       changeFrequency: 'monthly',
       priority: 0.7,
@@ -46,7 +46,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     
     // Projects Section
     {
-      url: `${baseUrl}/#projects`,
+      url: `${baseUrl}#projects`,
       lastModified: currentDate,
       changeFrequency: 'weekly',
       priority: 0.9,
@@ -54,21 +54,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     
     // Contact Section
     {
-      url: `${baseUrl}/#contact`,
+      url: `${baseUrl}#contact`,
       lastModified: currentDate,
       changeFrequency: 'yearly',
       priority: 0.6,
     },
-    
-    // Individual Project Pages (jika ada)
-    // Uncomment jika Anda membuat halaman terpisah untuk setiap project
-    /*
-    {
-      url: `${baseUrl}/projects/dawu-company-profile`,
-      lastModified: currentDate,
-      changeFrequency: 'monthly',
-      priority: 0.8,
-    },
-    */
   ]
 }
