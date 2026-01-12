@@ -1,0 +1,24 @@
+# robots.txt for Galang Rizky Arridho Portfolio
+# This file tells search engines which pages they can crawl
+
+# Allow all search engines to crawl everything
+User-agent: *
+Allow: /
+
+# Disallow crawling of API routes (if any)
+Disallow: /api/
+
+# Disallow crawling of private files
+Disallow: /_next/
+Disallow: /static/
+
+# Crawl-delay for polite crawling (optional)
+# Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://yourwebsite.com/sitemap.xml
+
+# Additional sitemaps (if you have multiple languages)
+# Sitemap: https://yourwebsite.com/sitemap-id.xml
+# Sitemap: https://yourwebsite.com/sitemap-en.xml
+# Sitemap: https://yourwebsite.com/sitemap-ja.xml
