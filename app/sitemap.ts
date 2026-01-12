@@ -19,45 +19,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
         },
       },
     },
-    
-    // About Section
-    {
-      url: `${baseUrl}#about`,
-      lastModified: currentDate,
-      changeFrequency: 'monthly',
-      priority: 0.8,
-    },
-    
-    // Experience Section
-    {
-      url: `${baseUrl}#experience`,
-      lastModified: currentDate,
-      changeFrequency: 'monthly',
-      priority: 0.7,
-    },
-    
-    // Skills Section
-    {
-      url: `${baseUrl}#skills`,
-      lastModified: currentDate,
-      changeFrequency: 'monthly',
-      priority: 0.7,
-    },
-    
-    // Projects Section
-    {
-      url: `${baseUrl}#projects`,
-      lastModified: currentDate,
-      changeFrequency: 'weekly',
-      priority: 0.9,
-    },
-    
-    // Contact Section
-    {
-      url: `${baseUrl}#contact`,
-      lastModified: currentDate,
-      changeFrequency: 'yearly',
-      priority: 0.6,
-    },
+
   ]
 }
